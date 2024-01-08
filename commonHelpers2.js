@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-ec808ebb.js";function s(t){t.preventDefault();const o=document.querySelector(".form").delay.value,n=document.querySelector('input[name="state"]:checked').value;new Promise((e,r)=>{setTimeout(()=>{n==="fulfilled"?e(o):r(o)},o)}).then(e=>{console.log(`✅ Fulfilled promise in ${e}ms`)}).catch(e=>{console.log(`❌ Rejected promise in ${e}ms`)})}const c=document.querySelector(".form");c.addEventListener("submit",s);
+//# sourceMappingURL=commonHelpers2.js.map
